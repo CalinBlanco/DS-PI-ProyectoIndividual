@@ -1,0 +1,147 @@
+
+    <html>
+    <header>
+        <link href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css" rel="stylesheet">
+    </header>
+    <body>
+    <h1>Diccionario de Datos del Dataset:</h1>
+    <h2>compra</h2>
+    <table border="1" class="dataframe" id="table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Columna</th>
+      <th>Tipo de Datos</th>
+      <th>Datos NO Vacíos</th>
+      <th>Datos Vacíos</th>
+      <th>Valores Únicos</th>
+      <th>Dato Máximo</th>
+      <th>Dato Mínimo</th>
+      <th>Tamaño(Memoria)</th>
+      <th>Sugerencia Cambio Nombre Columna</th>
+      <th>Descripcion de Columna</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>IdCompra</th>
+      <td>int64</td>
+      <td>11539</td>
+      <td>0</td>
+      <td>11539</td>
+      <td>11539.0</td>
+      <td>1.00</td>
+      <td>92312</td>
+      <td>id_compra</td>
+      <td>Identificador único del registro.</td>
+    </tr>
+    <tr>
+      <th>Fecha</th>
+      <td>object</td>
+      <td>11539</td>
+      <td>0</td>
+      <td>72</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>92312</td>
+      <td>fecha</td>
+      <td>Fecha de creación del registro.</td>
+    </tr>
+    <tr>
+      <th>Fecha_Año</th>
+      <td>int64</td>
+      <td>11539</td>
+      <td>0</td>
+      <td>6</td>
+      <td>2020.0</td>
+      <td>2015.00</td>
+      <td>92312</td>
+      <td>fecha_año</td>
+      <td>Anó que se generró la transacción.</td>
+    </tr>
+    <tr>
+      <th>Fecha_Mes</th>
+      <td>int64</td>
+      <td>11539</td>
+      <td>0</td>
+      <td>12</td>
+      <td>12.0</td>
+      <td>1.00</td>
+      <td>92312</td>
+      <td>fecha_mes</td>
+      <td>Mes que se generró la transacción.</td>
+    </tr>
+    <tr>
+      <th>Fecha_Periodo</th>
+      <td>int64</td>
+      <td>11539</td>
+      <td>0</td>
+      <td>57</td>
+      <td>202012.0</td>
+      <td>201501.00</td>
+      <td>92312</td>
+      <td>fecha_periodo</td>
+      <td>Periodo que se generró la transacción.</td>
+    </tr>
+    <tr>
+      <th>IdProducto</th>
+      <td>int64</td>
+      <td>11539</td>
+      <td>0</td>
+      <td>283</td>
+      <td>43043.0</td>
+      <td>42737.00</td>
+      <td>92312</td>
+      <td>id_producto</td>
+      <td>Identificador de la tabla producto.</td>
+    </tr>
+    <tr>
+      <th>Cantidad</th>
+      <td>int64</td>
+      <td>11539</td>
+      <td>0</td>
+      <td>49</td>
+      <td>54.0</td>
+      <td>1.00</td>
+      <td>92312</td>
+      <td>cantidad</td>
+      <td>Cantidad de productos.</td>
+    </tr>
+    <tr>
+      <th>Precio</th>
+      <td>float64</td>
+      <td>11172</td>
+      <td>367</td>
+      <td>10642</td>
+      <td>10445800.0</td>
+      <td>1.86</td>
+      <td>92312</td>
+      <td>precio</td>
+      <td>Precio del producto.</td>
+    </tr>
+    <tr>
+      <th>IdProveedor</th>
+      <td>int64</td>
+      <td>11539</td>
+      <td>0</td>
+      <td>14</td>
+      <td>14.0</td>
+      <td>1.00</td>
+      <td>92312</td>
+      <td>id_proveedor</td>
+      <td>Identificador de la tabla proveedor.</td>
+    </tr>
+  </tbody>
+</table>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+    <script>
+        $(document).ready( function () {
+            $('#table').DataTable({
+                // paging: false,    
+                // scrollY: 400,
+            });
+        });
+    </script>
+    </body>
+    </html>
+    

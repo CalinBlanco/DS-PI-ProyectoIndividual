@@ -1,0 +1,207 @@
+
+    <html>
+    <header>
+        <link href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css" rel="stylesheet">
+    </header>
+    <body>
+    <h1>Diccionario de Datos del Dataset:</h1>
+    <h2>localidad</h2>
+    <table border="1" class="dataframe" id="table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Columna</th>
+      <th>Tipo de Datos</th>
+      <th>Datos NO Vacíos</th>
+      <th>Datos Vacíos</th>
+      <th>Valores Únicos</th>
+      <th>Dato Máximo</th>
+      <th>Dato Mínimo</th>
+      <th>Tamaño(Memoria)</th>
+      <th>Sugerencia Cambio Nombre Columna</th>
+      <th>Descripcion de Columna</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>categoria</th>
+      <td>object</td>
+      <td>4142</td>
+      <td>0</td>
+      <td>5</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>33136</td>
+      <td>categoria</td>
+      <td>Categoría de la localidad.</td>
+    </tr>
+    <tr>
+      <th>centroide_lat</th>
+      <td>float64</td>
+      <td>4142</td>
+      <td>0</td>
+      <td>4113</td>
+      <td>-2.187649e+01</td>
+      <td>-5.480364e+01</td>
+      <td>33136</td>
+      <td>centroide_lat</td>
+      <td>Coordenada del centroide de la latitud.</td>
+    </tr>
+    <tr>
+      <th>centroide_lon</th>
+      <td>float64</td>
+      <td>4142</td>
+      <td>0</td>
+      <td>4113</td>
+      <td>-5.364721e+01</td>
+      <td>-7.289163e+01</td>
+      <td>33136</td>
+      <td>centroide_lon</td>
+      <td>Coordenada del centroide de la longitud.</td>
+    </tr>
+    <tr>
+      <th>departamento_id</th>
+      <td>float64</td>
+      <td>4141</td>
+      <td>1</td>
+      <td>525</td>
+      <td>9.401500e+04</td>
+      <td>2.007000e+03</td>
+      <td>33136</td>
+      <td>id_departamento</td>
+      <td>Identificador del departamento.</td>
+    </tr>
+    <tr>
+      <th>departamento_nombre</th>
+      <td>object</td>
+      <td>4141</td>
+      <td>1</td>
+      <td>445</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>33136</td>
+      <td>departamento_nombre</td>
+      <td>Nombre del departamento.</td>
+    </tr>
+    <tr>
+      <th>fuente</th>
+      <td>object</td>
+      <td>4142</td>
+      <td>0</td>
+      <td>1</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>33136</td>
+      <td>categoria</td>
+      <td>Categoría de la localidad.</td>
+    </tr>
+    <tr>
+      <th>id</th>
+      <td>int64</td>
+      <td>4142</td>
+      <td>0</td>
+      <td>4142</td>
+      <td>9.401502e+10</td>
+      <td>2.000010e+09</td>
+      <td>33136</td>
+      <td>id_localidad</td>
+      <td>Identificador del registro.</td>
+    </tr>
+    <tr>
+      <th>localidad_censal_id</th>
+      <td>int64</td>
+      <td>4142</td>
+      <td>0</td>
+      <td>3522</td>
+      <td>9.401502e+07</td>
+      <td>2.000010e+06</td>
+      <td>33136</td>
+      <td>id_localidad_central</td>
+      <td>Id de la localidad central.</td>
+    </tr>
+    <tr>
+      <th>localidad_censal_nombre</th>
+      <td>object</td>
+      <td>4142</td>
+      <td>0</td>
+      <td>3231</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>33136</td>
+      <td>localidad_censal_nombre</td>
+      <td>Nombre de la localidad censal.</td>
+    </tr>
+    <tr>
+      <th>municipio_id</th>
+      <td>float64</td>
+      <td>3599</td>
+      <td>543</td>
+      <td>1712</td>
+      <td>9.420070e+05</td>
+      <td>6.000700e+04</td>
+      <td>33136</td>
+      <td>id_municipio</td>
+      <td>Identificador de municipio.</td>
+    </tr>
+    <tr>
+      <th>municipio_nombre</th>
+      <td>object</td>
+      <td>3648</td>
+      <td>494</td>
+      <td>1614</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>33136</td>
+      <td>municipio_nombre</td>
+      <td>Nombre del municipio.</td>
+    </tr>
+    <tr>
+      <th>nombre</th>
+      <td>object</td>
+      <td>4142</td>
+      <td>0</td>
+      <td>3730</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>33136</td>
+      <td>nombre</td>
+      <td>Nombre de la localidad.</td>
+    </tr>
+    <tr>
+      <th>provincia_id</th>
+      <td>int64</td>
+      <td>4142</td>
+      <td>0</td>
+      <td>23</td>
+      <td>9.400000e+01</td>
+      <td>6.000000e+00</td>
+      <td>33136</td>
+      <td>id_provincia</td>
+      <td>Identificador de la tabla provincia.</td>
+    </tr>
+    <tr>
+      <th>provincia_nombre</th>
+      <td>object</td>
+      <td>4142</td>
+      <td>0</td>
+      <td>23</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>33136</td>
+      <td>provincia_nombre</td>
+      <td>Nombre de la provincia.</td>
+    </tr>
+  </tbody>
+</table>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+    <script>
+        $(document).ready( function () {
+            $('#table').DataTable({
+                // paging: false,    
+                // scrollY: 400,
+            });
+        });
+    </script>
+    </body>
+    </html>
+    

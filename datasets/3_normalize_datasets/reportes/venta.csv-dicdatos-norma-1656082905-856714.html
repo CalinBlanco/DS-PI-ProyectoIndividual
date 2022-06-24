@@ -1,0 +1,159 @@
+
+    <html>
+    <header>
+        <link href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css" rel="stylesheet">
+    </header>
+    <body>
+    <h1>Diccionario de Datos del Dataset:</h1>
+    <h2>venta.csv</h2>
+    <table border="1" class="dataframe" id="table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Columna</th>
+      <th>Tipo de Datos</th>
+      <th>Datos NO Vacíos</th>
+      <th>Datos Vacíos</th>
+      <th>Valores Únicos</th>
+      <th>Dato Máximo</th>
+      <th>Dato Mínimo</th>
+      <th>Tamaño(Memoria)</th>
+      <th>Sugerencia Cambio Nombre Columna</th>
+      <th>Descripcion de Columna</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>id_venta</th>
+      <td>int64</td>
+      <td>46645</td>
+      <td>0</td>
+      <td>46645</td>
+      <td>48241.0</td>
+      <td>1.0</td>
+      <td>373160</td>
+      <td>--</td>
+      <td>--</td>
+    </tr>
+    <tr>
+      <th>fecha</th>
+      <td>object</td>
+      <td>46645</td>
+      <td>0</td>
+      <td>1872</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>373160</td>
+      <td>--</td>
+      <td>--</td>
+    </tr>
+    <tr>
+      <th>fecha_entrega</th>
+      <td>object</td>
+      <td>46645</td>
+      <td>0</td>
+      <td>2174</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>373160</td>
+      <td>--</td>
+      <td>--</td>
+    </tr>
+    <tr>
+      <th>id_canal</th>
+      <td>int64</td>
+      <td>46645</td>
+      <td>0</td>
+      <td>3</td>
+      <td>3.0</td>
+      <td>1.0</td>
+      <td>373160</td>
+      <td>--</td>
+      <td>--</td>
+    </tr>
+    <tr>
+      <th>id_cliente</th>
+      <td>int64</td>
+      <td>46645</td>
+      <td>0</td>
+      <td>2969</td>
+      <td>3407.0</td>
+      <td>1.0</td>
+      <td>373160</td>
+      <td>--</td>
+      <td>--</td>
+    </tr>
+    <tr>
+      <th>id_sucursal</th>
+      <td>int64</td>
+      <td>46645</td>
+      <td>0</td>
+      <td>30</td>
+      <td>31.0</td>
+      <td>1.0</td>
+      <td>373160</td>
+      <td>--</td>
+      <td>--</td>
+    </tr>
+    <tr>
+      <th>id_empleado</th>
+      <td>int64</td>
+      <td>46645</td>
+      <td>0</td>
+      <td>249</td>
+      <td>3979.0</td>
+      <td>1011.0</td>
+      <td>373160</td>
+      <td>--</td>
+      <td>--</td>
+    </tr>
+    <tr>
+      <th>id_producto</th>
+      <td>int64</td>
+      <td>46645</td>
+      <td>0</td>
+      <td>283</td>
+      <td>43043.0</td>
+      <td>42737.0</td>
+      <td>373160</td>
+      <td>--</td>
+      <td>--</td>
+    </tr>
+    <tr>
+      <th>precio</th>
+      <td>float64</td>
+      <td>45721</td>
+      <td>924</td>
+      <td>451</td>
+      <td>33739200.0</td>
+      <td>3.0</td>
+      <td>373160</td>
+      <td>--</td>
+      <td>--</td>
+    </tr>
+    <tr>
+      <th>cantidad</th>
+      <td>float64</td>
+      <td>45753</td>
+      <td>892</td>
+      <td>9</td>
+      <td>300.0</td>
+      <td>1.0</td>
+      <td>373160</td>
+      <td>--</td>
+      <td>--</td>
+    </tr>
+  </tbody>
+</table>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+    <script>
+        $(document).ready( function () {
+            $('#table').DataTable({
+                // paging: false,    
+                // scrollY: 400,
+            });
+        });
+    </script>
+    </body>
+    </html>
+    

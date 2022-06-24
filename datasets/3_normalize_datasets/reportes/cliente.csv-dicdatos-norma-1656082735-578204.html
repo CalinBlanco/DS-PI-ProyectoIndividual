@@ -1,0 +1,147 @@
+
+    <html>
+    <header>
+        <link href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css" rel="stylesheet">
+    </header>
+    <body>
+    <h1>Diccionario de Datos del Dataset:</h1>
+    <h2>cliente.csv</h2>
+    <table border="1" class="dataframe" id="table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Columna</th>
+      <th>Tipo de Datos</th>
+      <th>Datos NO Vacíos</th>
+      <th>Datos Vacíos</th>
+      <th>Valores Únicos</th>
+      <th>Dato Máximo</th>
+      <th>Dato Mínimo</th>
+      <th>Tamaño(Memoria)</th>
+      <th>Sugerencia Cambio Nombre Columna</th>
+      <th>Descripcion de Columna</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>id_cliente</th>
+      <td>int64</td>
+      <td>2671</td>
+      <td>0</td>
+      <td>2671</td>
+      <td>2672.000000</td>
+      <td>1.000000</td>
+      <td>21368</td>
+      <td>--</td>
+      <td>--</td>
+    </tr>
+    <tr>
+      <th>provincia</th>
+      <td>object</td>
+      <td>2671</td>
+      <td>0</td>
+      <td>4</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>21368</td>
+      <td>--</td>
+      <td>--</td>
+    </tr>
+    <tr>
+      <th>nombre_apellido</th>
+      <td>object</td>
+      <td>2671</td>
+      <td>0</td>
+      <td>2593</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>21368</td>
+      <td>--</td>
+      <td>--</td>
+    </tr>
+    <tr>
+      <th>domicilio</th>
+      <td>object</td>
+      <td>2671</td>
+      <td>0</td>
+      <td>2624</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>21368</td>
+      <td>--</td>
+      <td>--</td>
+    </tr>
+    <tr>
+      <th>telefono</th>
+      <td>object</td>
+      <td>2671</td>
+      <td>0</td>
+      <td>2635</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>21368</td>
+      <td>--</td>
+      <td>--</td>
+    </tr>
+    <tr>
+      <th>edad</th>
+      <td>int64</td>
+      <td>2671</td>
+      <td>0</td>
+      <td>51</td>
+      <td>65.000000</td>
+      <td>15.000000</td>
+      <td>21368</td>
+      <td>--</td>
+      <td>--</td>
+    </tr>
+    <tr>
+      <th>id_localidad</th>
+      <td>object</td>
+      <td>2671</td>
+      <td>0</td>
+      <td>378</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>21368</td>
+      <td>--</td>
+      <td>--</td>
+    </tr>
+    <tr>
+      <th>longitud</th>
+      <td>float64</td>
+      <td>2615</td>
+      <td>56</td>
+      <td>2609</td>
+      <td>58.636645</td>
+      <td>-64.993418</td>
+      <td>21368</td>
+      <td>--</td>
+      <td>--</td>
+    </tr>
+    <tr>
+      <th>latitud</th>
+      <td>float64</td>
+      <td>2615</td>
+      <td>56</td>
+      <td>2609</td>
+      <td>34.727147</td>
+      <td>-58.577339</td>
+      <td>21368</td>
+      <td>--</td>
+      <td>--</td>
+    </tr>
+  </tbody>
+</table>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+    <script>
+        $(document).ready( function () {
+            $('#table').DataTable({
+                // paging: false,    
+                // scrollY: 400,
+            });
+        });
+    </script>
+    </body>
+    </html>
+    

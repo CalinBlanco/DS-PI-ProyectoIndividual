@@ -1,0 +1,284 @@
+{
+  "canaldeventa" : {
+    "CODIGO":{
+      "cambioColumna":"id_canaldeventa",
+      "descripcionColumna":"Identificador del registro."
+    },
+    "DESCRIPCION":{
+      "cambioColumna":"nombre",
+      "descripcionColumna":"Nombre del canal de venta."
+    }
+  },
+  "cliente" : {
+    "ID":{
+      "cambioColumna":"id_cliente",
+      "descripcionColumna":"Identificador único del registro."
+      },
+    "Provincia":{
+      "cambioColumna":"provincia",
+      "descripcionColumna":"Nombre de la provincia"
+    },
+    "Nombre_y_Apellido":{
+      "cambioColumna":"nombre_apellido",
+      "descripcionColumna":"Nombres y apellidos de la persona."
+    },
+    "Domicilio":{
+      "cambioColumna":"domicilio",
+      "descripcionColumna":"Dirección de la persona."
+    },
+    "Telefono":{
+      "cambioColumna":"telefono",
+      "descripcionColumna":"Teléfono de la persona."
+    },
+    "Edad":{
+      "cambioColumna":"edad",
+      "descripcionColumna":"Edad de la persona."
+    },
+    "Localidad":{
+      "cambioColumna":"id_localidad",
+      "descripcionColumna":"Identificador de la tabla localidad."
+    },
+    "X":{
+      "cambioColumna":"longitud",
+      "descripcionColumna":"Coordenada de longitud."
+    },
+    "Y":{
+      "cambioColumna":"latitud",
+      "descripcionColumna":"Coordenada de latitud."
+    }
+  },
+  "compra" : {
+    "IdCompra":{
+      "cambioColumna":"id_compra",
+      "descripcionColumna":"Identificador único del registro."
+    },
+    "Fecha":{
+      "cambioColumna":"fecha",
+      "descripcionColumna":"Fecha de creación del registro."
+    },
+    "Fecha_Año":{
+      "cambioColumna":"fecha_año",
+      "descripcionColumna":"Anó que se generró la transacción."
+    },
+    "Fecha_Mes":{
+      "cambioColumna":"fecha_mes",
+      "descripcionColumna":"Mes que se generró la transacción."
+    },
+    "Fecha_Periodo":{
+      "cambioColumna":"fecha_periodo",
+      "descripcionColumna":"Periodo que se generró la transacción."
+    },
+    "IdProducto":{
+      "cambioColumna":"id_producto",
+      "descripcionColumna":"Identificador de la tabla producto."
+    },
+    "Cantidad":{
+      "cambioColumna":"cantidad",
+      "descripcionColumna":"Cantidad de productos."
+    },
+    "Precio":{
+      "cambioColumna":"precio",
+      "descripcionColumna":"Precio del producto."
+    },
+    "IdProveedor":{
+      "cambioColumna":"id_proveedor",
+      "descripcionColumna":"Identificador de la tabla proveedor."
+    }
+  },
+  "gasto" : {
+    "IdGasto":{
+      "cambioColumna":"id_gasto",
+      "descripcionColumna":"Identificador único del registro."
+    },
+    "IdSucursal":{
+      "cambioColumna":"id_sucursal",
+      "descripcionColumna":"Identificador de la tabla sucursal."
+    },
+    "IdTipoGasto":{
+      "cambioColumna":"id_tipogasto",
+      "descripcionColumna":"Identificador de la tabla tiposdegasto."
+    },
+    "Fecha":{
+      "cambioColumna":"fecha",
+      "descripcionColumna":"Fecha de creación de registro."
+    },
+    "Monto":{
+      "cambioColumna":"monto",
+      "descripcionColumna":"Monto del gasto."
+    }
+  },
+  "localidad" : {
+    "categoria":{
+      "cambioColumna":"categoria",
+      "descripcionColumna":"Categoría de la localidad."
+    },
+    "centroide_lat":{
+      "cambioColumna":"centroide_lat",
+      "descripcionColumna":"Coordenada del centroide de la latitud."
+    },
+    "centroide_lon":{
+      "cambioColumna":"centroide_lon",
+      "descripcionColumna":"Coordenada del centroide de la longitud."
+    },
+    "departamento_id":{
+      "cambioColumna":"id_departamento",
+      "descripcionColumna":"Identificador del departamento."
+    },
+    "departamento_nombre":{
+      "cambioColumna":"departamento_nombre",
+      "descripcionColumna":"Nombre del departamento."
+    },
+    "fuente":{
+      "cambioColumna":"categoria",
+      "descripcionColumna":"Categoría de la localidad."
+    },
+    "id":{
+      "cambioColumna":"id_localidad",
+      "descripcionColumna":"Identificador del registro."
+    },
+    "localidad_censal_id":{
+      "cambioColumna":"id_localidad_central",
+      "descripcionColumna":"Id de la localidad central."
+    },
+    "localidad_censal_nombre":{
+      "cambioColumna":"localidad_censal_nombre",
+      "descripcionColumna":"Nombre de la localidad censal."
+    },
+    "municipio_id":{
+      "cambioColumna":"id_municipio",
+      "descripcionColumna":"Identificador de municipio."
+    },
+    "municipio_nombre":{
+      "cambioColumna":"municipio_nombre",
+      "descripcionColumna":"Nombre del municipio."
+    },
+    "nombre":{
+      "cambioColumna":"nombre",
+      "descripcionColumna":"Nombre de la localidad."
+    },
+    "provincia_id":{
+      "cambioColumna":"id_provincia",
+      "descripcionColumna":"Identificador de la tabla provincia."
+    },
+    "provincia_nombre":{
+      "cambioColumna":"provincia_nombre",
+      "descripcionColumna":"Nombre de la provincia."
+    }
+  },
+  "proveedor" : {
+    "IDProveedor":{
+      "cambioColumna":"id_proveedor",
+      "descripcionColumna":"Identificador del registro."
+    },
+    "Nombre":{
+      "cambioColumna":"nombre",
+      "descripcionColumna":"Nombre del proveedor."
+    },
+    "Address":{
+      "cambioColumna":"direccion",
+      "descripcionColumna":"Dirección del proveedor."
+    },
+    "City":{
+      "cambioColumna":"ciudad",
+      "descripcionColumna":"Ciudad del proveedor."
+    },
+    "State":{
+      "cambioColumna":"estado",
+      "descripcionColumna":"Nombre del estado del proveddor."
+    },
+    "Country":{
+      "cambioColumna":"pais",
+      "descripcionColumna":"Nombre del pais del proveddor."
+    },
+    "departamen":{
+      "cambioColumna":"departamento",
+      "descripcionColumna":"Nombre del departamento del proveedor."
+    }
+  },
+  "sucursal" : {
+    "ID":{
+      "cambioColumna":"id_sucursal",
+      "descripcionColumna":"Identificador del registro."
+    },
+    "Sucursal":{
+      "cambioColumna":"sucursal",
+      "descripcionColumna":"Nombre de la sucursal."
+    },
+    "Direccion":{
+      "cambioColumna":"direccion",
+      "descripcionColumna":"Dirección de la sucursal."
+    },
+    "Localidad":{
+      "cambioColumna":"id_localidad",
+      "descripcionColumna":"Identificador de la tabla localidad."
+    },
+    "Provincia":{
+      "cambioColumna":"provincia",
+      "descripcionColumna":"Provincia de la sucursal."
+    },
+    "Latitud":{
+      "cambioColumna":"latitud",
+      "descripcionColumna":"Coordenada de la latitud."
+    },
+    "Longitud":{
+      "cambioColumna":"longitud",
+      "descripcionColumna":"Coordenada de la longitud."
+    }
+  },
+  "tiposdegasto" : {
+    "IdTipoGasto":{
+      "cambioColumna":"id_tipo_gasto",
+      "descripcionColumna":"Identificador del registro."
+    },
+    "Descripcion":{
+      "cambioColumna":"nombre",
+      "descripcionColumna":"Nombre del tipo de gasto."
+    },
+    "Monto_Aproximado":{
+      "cambioColumna":"monto_aproximado",
+      "descripcionColumna":"Monto aproximado del tipo de gasto."
+    }
+  },
+  "venta" : {
+    "IdVenta":{
+      "cambioColumna":"id_venta",
+      "descripcionColumna":"Identificador del registro."
+    },
+    "Fecha":{
+      "cambioColumna":"fecha",
+      "descripcionColumna":"Fecha de creación del registro."
+    },
+    "Fecha_Entrega":{
+      "cambioColumna":"fecha_entrega",
+      "descripcionColumna":"Fecha de entrega de la venta."
+    },
+    "IdCanal":{
+      "cambioColumna":"id_canaldeventa",
+      "descripcionColumna":"Identificador de la tabla canal."
+    },
+    "IdCliente":{
+      "cambioColumna":"id_cliente",
+      "descripcionColumna":"Identificador de la tabla cliente."
+    },
+    "IdSucursal":{
+      "cambioColumna":"id_sucursal",
+      "descripcionColumna":"Identificador de la tabla sucursal."
+    },
+    "IdEmpleado":{
+      "cambioColumna":"id_empleado",
+      "descripcionColumna":"Identificador de la tabla empleado."
+    },
+    "IdProducto":{
+      "cambioColumna":"id_producto",
+      "descripcionColumna":"Identificador de la tabla producto."
+    },
+    "Precio":{
+      "cambioColumna":"precio",
+      "descripcionColumna":"Precio de la venta."
+    },
+    "Cantidad":{
+      "cambioColumna":"cantidad",
+      "descripcionColumna":"Cantidad de productos."
+    }
+  }
+}
